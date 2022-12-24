@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.green {
+    color: green;
+    padding-top: 43px;
+}
+
+.header-plants {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 134px;
+    margin: 0 auto;
+    background-color: #EDF2EC;
+    padding: 0 110px 0 110px;
+}
+
+.main-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.logo-plants {
+    display: flex;
+    align-items: baseline;
+}
+
+.inika {
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    color: #010201;
+}
+
+.header-nav  {
+    width: 40%;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 110px 62px 110px;
+    background-color: #EDF2EC;
+    height: 532px;
+}
+
+.welcome-img {
+    width: 40%;
+}
+.welcome-text {
+    width: 50%;
+    padding-top: 43px;
+}
+.welcome-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #717171;
+}
+
+.welcome-lorem {
+    padding-top: 42px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #636060;
+}
+
+.welcome-button {
+    margin-top: 48px;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    background-color: #EDF2EC;
+    font-size: 16px;
+    text-transform: uppercase;
+}
