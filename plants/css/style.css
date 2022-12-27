@@ -1,13 +1,11 @@
 * {
     margin: 0;
-    font-family: 'Inter', sans-serif;
     text-decoration: none;
     list-style: none;
 }
 
 .green {
     color: green;
-    padding-top: 43px;
 }
 
 .header-plants {
@@ -16,13 +14,17 @@
     align-items: center;
     height: 134px;
     margin: 0 auto;
-    background-color: #EDF2EC;
-    padding: 0 110px 0 110px;
+
 }
 
 .main-container {
     width: 1440px;
     margin: 0 auto;
+    background-color: #EDF2EC;
+}
+
+.main-container section, header {
+    padding: 0 110px;
 }
 
 .logo-plants {
@@ -48,8 +50,7 @@
 .welcome{
     display: flex;
     justify-content: space-between;
-    padding: 55px 110px 62px 110px;
-    background-color: #EDF2EC;
+    align-items: center;
     height: 532px;
 }
 
@@ -58,9 +59,9 @@
 }
 .welcome-text {
     width: 50%;
-    padding-top: 43px;
 }
 .welcome-title {
+    font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 50px;
@@ -68,6 +69,7 @@
 }
 
 .welcome-lorem {
+    font-family: 'Inter', sans-serif;
     padding-top: 42px;
     font-size: 20px;
     font-weight: 400;
@@ -83,5 +85,33 @@
     border-radius: 10px;
     background-color: #EDF2EC;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
+}
+
+.about{
+    min-height: 666px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.title-about {
+    font-family: Inika, serif;
+    font-weight: 400;
+    font-size: 40px;
+    color:#E06733;
+} 
+
+.about-lorem {
+    padding-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
 }
