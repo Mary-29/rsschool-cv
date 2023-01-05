@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Plants</title>
+    <link type="image/x-icon" href="assets/favicon.ico" rel="shortcut icon">
 </head>
 <body>
     <div class="main-container">
@@ -20,10 +21,10 @@
                     <nav class="header-nav">
                         <ul class="header-list">
                             <li><a href="#" class="inika">Home</a></li>
-                            <li><a href="#" class="inika">About us</a></li>
-                            <li><a href="#" class="inika">Service</a></li>
-                            <li><a href="#" class="inika">Price</a></li>
-                            <li><a href="#" class="inika">Contacts</a></li>
+                            <li><a href="#about" class="inika">About us</a></li>
+                            <li><a href="#service" class="inika">Service</a></li>
+                            <li><a href="#price" class="inika">Price</a></li>
+                            <li><a href="#contacts" class="inika">Contacts</a></li>
                         </ul>
                     </nav>
         </header>
@@ -37,7 +38,7 @@
                     <button class="welcome-button">Learn more</button>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="about-text">
                     <h2 class="title-about"><span class="green">We are</span> professional experienced <span class="green">gardeners</span></h2>
                     <p class="about-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
@@ -47,7 +48,102 @@
                 </div>
                 <div class="about-img"><img src="assets/img/png/about/about_houseplant 1.png" alt="plant"></div>
             </section>
+
+            <section class="service" id="service">
+                <div class="sevice-top">
+                    <h2 class=" service-title green">Service and our<br> projects</h2>
+                    <div class="service-buttons">
+                        <button class="service-button orange-button">Gardens</button>
+                        <button class="service-button orange-button">Lawn</button>
+                        <button class="service-button orange-button">Planting</button>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <div class="service-item">
+                        <img src="assets/img/png/service/garden_care.png" alt="garden">
+                        <div class="service-text">
+                            <h3 class="service-item-title">Garden care</h3>
+                            <p class="service-item-lorem">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/png/service/planting.png" alt="planting">
+                        <div class="service-text">
+                            <h3 class="service-item-title">Planting</h3>
+                            <p class="service-item-lorem">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/png/service/lawn_care.png" alt="lawn">
+                        <div class="service-text">
+                            <h3 class="service-item-title">Lawn care</h3>
+                            <p class="service-item-lorem">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="service-items-second">
+                    <div class="service-item">
+                        <img src="assets/img/png/service/planting_second.png" alt="planting">
+                        <h3 class="service-item-title">Planting</h3>
+                        <p class="service-item-lorem">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/png/service/garden_care_second.png" alt="garden">
+                        <h3 class="service-item-title">Garden care</h3>
+                        <p class="service-item-lorem">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/png/service/planting_third.png" alt="planting">
+                        <h3 class="service-item-title">Planting</h3>
+                        <p class="service-item-lorem">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="prices" id="price">
+                <div class="right-part">
+                    <h2 class="prices-title">Prices</h2>
+                    <div class="prices-buttons">
+                        <div class="prices-button">Basics <div class="round"> <img src="assets/svg/logo/arrow.svg" alt="arrow"></div></div>
+                        <div class="prices-button">Standard <div class="round"> <img src="assets/svg/logo/arrow.svg" alt="arrow"></div></div>
+                        <div class="prices-button">Pro care <div class="round"> <img src="assets/svg/logo/arrow.svg" alt="arrow"></div></div>
+                    </div>
+                </div>
+                <div class="left-part">
+                    <h3 class="gardeners-title">Our best <span class="green">gardeners</span> are ready to help you</h3>
+                    <div class="prices-block">
+                        <button class="orange-button contact-button">Contact us</button>
+                        <div class="img-block"><img src="assets/img/png/price/price_leafs.png" alt="leafs" class="prices-img"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <h2 class="contact-title green">Contact us</h2>
+                <div class="contacts-part">
+                    <img src="assets/img/png/contacts/contact_woman 1.png" alt="woman" class="img-contacts">
+                    <div class="contacts-button">City <div class="round-grey"> <img src="assets/svg/logo/arro-green.svg" alt="arrow"></div></div>
+                </div>
+            </section>
         </main>
+
+        <footer class="footer">
+            <div class="github-link">
+                <div class="github-item">@</div>
+                <div class="github-item">2022</div>
+                <a href="https://github.com/Mary-29" class="github-item">github</a>
+            </div>
+            <div class="rsschool-link">
+                <a href ="https://rs.school/js-stage0/" class="rsschool-item">Rolling Scopes School</a>
+            </div>
+            <ul class="social-networks">
+                <li><img src="assets/svg/logo/intaram.svg" alt="instagram" class="social-networks-item"><a href=""></a></li>
+                <li><img src="assets/svg/logo/fb.svg" alt="facebook" class="social-networks-item"><a href=""></a></li>
+                <li><img src="assets/svg/logo/tw.svg" alt="twitter" class="social-networks-item"><a href=""></a></li>
+                <li><img src="assets/svg/logo/pinterest 1.svg" alt="pinterest" class="social-networks-item"><a href=""></a></li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>

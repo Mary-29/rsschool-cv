@@ -1,12 +1,11 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
-.green {
-    color: green;
-}
 
 .header-plants {
     display: flex;
@@ -23,7 +22,8 @@
     background-color: #EDF2EC;
 }
 
-.main-container section, header {
+.main-container section,
+header {
     padding: 0 110px;
 }
 
@@ -38,7 +38,7 @@
     color: #010201;
 }
 
-.header-nav  {
+.header-nav {
     width: 40%;
 }
 
@@ -47,7 +47,7 @@
     justify-content: space-between;
 }
 
-.welcome{
+.welcome {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,9 +57,11 @@
 .welcome-img {
     width: 40%;
 }
+
 .welcome-text {
     width: 50%;
 }
+
 .welcome-title {
     font-family: 'Inter', sans-serif;
     font-size: 45px;
@@ -89,7 +91,7 @@
     text-transform: uppercase;
 }
 
-.about{
+.about {
     min-height: 666px;
     display: flex;
     justify-content: space-between;
@@ -101,12 +103,13 @@
     width: 50%;
 }
 
-.title-about {
+.title-about,
+.service-title {
     font-family: Inika, serif;
     font-weight: 400;
     font-size: 40px;
-    color:#E06733;
-} 
+    color: #E06733;
+}
 
 .about-lorem {
     padding-top: 40px;
@@ -114,4 +117,229 @@
     font-size: 20px;
     line-height: 30px;
     color: #636060;
+}
+
+.service {
+    min-height: 1300px;
+}
+
+.sevice-top {
+    margin-top: 51px;
+    display: flex;
+}
+
+.service-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+}
+
+
+.orange-button {
+    height: 50px;
+    width: 161px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: inika, serif;
+    font-size: 20px;
+    color: #E06733;
+    background-color: white;
+}
+
+.service-button {
+    margin-left: 38px;
+    background-color: #EDF2EC;
+}
+
+.service-button:first-child {
+    margin-left: 0;
+}
+
+
+.green {
+    color: green;
+}
+
+.service-items,
+.service-items-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-items {
+    margin-top: 84px;
+}
+
+.service-item {
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.service-item-title {
+    font-family: Inter, sans-serif;
+    color: #E06733;
+    font-size: 20px;
+    text-align: center;
+}
+
+.service-item-lorem {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #717171;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.service-items-second {
+    margin-top: 55px;
+}
+
+.prices {
+    display: flex;
+    min-height: 560px;
+    background-color: #FFFFFF;
+}
+
+.left-part,
+.right-part {
+    margin-top: 40px;
+    width: 50%;
+}
+
+.prices-title,
+.gardeners-title {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #010201;
+}
+
+.prices-buttons {
+    min-height: 282px;
+    width: 332px;
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    padding: 34px 0;
+}
+
+.prices-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 250px;
+    background-color: #EDF2EC;
+    border: none;
+    border-radius: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 41px;
+}
+
+    .round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+}
+
+.gardeners-title {
+    text-align: right;
+}
+
+.prices-block{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.contact-button, .img-block {
+    margin-top: 48px;
+}
+
+.contacts{
+    height: 550px;
+    background-color: #EDF2EC;
+}
+
+.contact-title {
+    padding-top: 65px;
+    font-family: Inika, serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contacts-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-contacts {
+    position: relative;
+    bottom: 65px;
+}
+
+.contacts-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 36px 0 21px;
+    height: 50px;
+    width: 450px;
+    background-color: #D6E7D2;
+    border: none;
+    margin-top: 48px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: Inter, sans-serif;
+    color: #717171;
+    font-size: 20px;
+}
+
+.round-grey {
+    background-color: #AEA1A1;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    padding: 0 109px;
+}
+
+.github-link {
+    display: flex;
+}
+
+.github-item, .rsschool-item{
+    color: #000000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+}
+.social-networks{
+    display: flex;
+}
+.github-item, .social-networks-item{
+    margin-right: 20px;
 }
