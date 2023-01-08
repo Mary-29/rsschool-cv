@@ -5,9 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/229f10d939.js" crossorigin="anonymous"></script>
+    <title>CV</title>
 </head>
 <body>
-    <h1>Hello!</h1>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+    <div class="container main-container">
+        <div class="left-part">
+            <section class="skills" id="skills">
+                <h2 class="title-section pink-text">Skills</h2>
+                <ul class="left-list ">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS/SASS</li>
+                    <li class="skills-item">Figma, Photoshop</li>
+                </ul>
+            </section>
+
+            <section class="languages" id="languages">
+                <h2 class="title-section pink-text">Languages</h2>
+                <ul class="left-list ">
+                    <li class="skills-item">English - Elementary</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-part">
+            <div class="main-style">
+                <img src="assets/img/IMG_20221118_192118_205.jpg" alt="photo" class="profile-photo profile">
+                <h1 class="title-section main-title pink-text">Maria Goncharova</h1>
+            </div>
+            <section class="summary" id="summary">
+                <div class="title-style"><h2 class="title-section title-dark pink-text">Summary</h2></div>
+                <div>I am 24 years old. My education and work experience are related to medicine, but I want to try myself in something new
+                and interesting. My goal is to complete the course, get new skills and put them into practice.</div>
+            </section>
+            <section id="code">
+                <div class="title-style"><h2 class="title-section title-dark pink-text">Code</h2></div>
+                <div class="code-examle">
+<pre>
+function multiply(a, b){
+    return a * b
+}
+</pre>
+            </div>
+            </section>
+            <section id="courses">
+                <div class="title-style"><h2 class="title-section title-dark pink-text">Courses</h2></div>
+                <div>
+                    <ul>
+                        <li><a href="https://htmlacademy.ru/courses/basic-html-css" class="style-link">Html academy</a></li>
+                        <li><a href="https://www.udemy.com/course/webdeveloper/learn/lecture/14898316?start=345#questions" class="style-link">Udemy</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="title-style"><h2 class="title-section title-dark pink-text">Projects</h2></div>
+                <div>
+                    <p >Several simple study projects:</p>
+                    <ul class="projects-list">
+                        <li class="projects-item"><a href="https://mary-29.github.io/study-project-wordpress/">Study project: Wordpress</a></li>
+                        <li class="projects-item"><a href="https://mary-29.github.io/sudy-project-uber/">Study project: Uber</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <div id="contacts">
+            <a href="tel:+995598445913" class="icon-link">
+                <i class="fa-sharp fa-solid fa-phone-volume"></i>
+            </a>
+            <a href="mailto:masha_goncharova_2019@mail.ru" class="icon-link">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://t.me/@prostomaria21" class="icon-link">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+            <a href="https://discordapp.com/users/1047110420923691028" class="icon-link">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+        </div>
+        <div>
+            <div class="rsschool-logo">
+                <a href="https://rs.school/js/" class="rsschool-link">
+                    <img src="assets/icons/rs_school_js.svg" alt="rsschool" class="rsschool-img"> 
+                </a>
+            </div>
+            <a href="https://github.com/Mary-29" class="github-link">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
