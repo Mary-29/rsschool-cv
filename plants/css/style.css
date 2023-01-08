@@ -29,12 +29,12 @@ header {
 
 .logo-plants {
     display: flex;
-    align-items: baseline;
 }
 
 .inika {
     font-family: 'Inika', serif;
     font-size: 16px;
+    font-weight: 400;
     color: #010201;
 }
 
@@ -45,6 +45,11 @@ header {
 .header-list {
     display: flex;
     justify-content: space-between;
+}
+
+.header-list .inika:hover {
+    transition: 0.5s;
+    color: #E06733;
 }
 
 .welcome {
@@ -58,11 +63,16 @@ header {
     width: 40%;
 }
 
+.leaf-img {
+    margin-left: -15px;
+}
 .welcome-text {
     width: 50%;
+    padding-left: 63px;
 }
 
 .welcome-title {
+    padding-top: 5px;
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -72,7 +82,7 @@ header {
 
 .welcome-lorem {
     font-family: 'Inter', sans-serif;
-    padding-top: 42px;
+    padding-top: 43px;
     font-size: 20px;
     font-weight: 400;
     line-height: 35px;
@@ -91,8 +101,14 @@ header {
     text-transform: uppercase;
 }
 
+.welcome-button:hover {
+    transition: 0.5s;
+    background-color: #E06733;
+    color: #fff;
+}
+
 .about {
-    min-height: 666px;
+    height: 669px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,6 +116,7 @@ header {
 }
 
 .about-text {
+    padding-top: 10px;
     width: 50%;
 }
 
@@ -112,7 +129,7 @@ header {
 }
 
 .about-lorem {
-    padding-top: 40px;
+    padding-top: 37px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 30px;
@@ -120,11 +137,11 @@ header {
 }
 
 .service {
-    min-height: 1300px;
+    min-height: 1256px;
 }
 
 .sevice-top {
-    margin-top: 51px;
+    margin-top: 41px;
     display: flex;
 }
 
@@ -132,7 +149,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 142px;
+    padding-left: 157px;
 }
 
 
@@ -147,9 +164,16 @@ header {
     background-color: white;
 }
 
+
 .service-button {
     margin-left: 38px;
     background-color: #EDF2EC;
+}
+
+.service-button:hover {
+    transition: 0.5s;
+    background-color: #E06733;
+    color: #fff;
 }
 
 .service-button:first-child {
@@ -158,7 +182,7 @@ header {
 
 
 .green {
-    color: green;
+    color: #499A18;
 }
 
 .service-items,
@@ -168,13 +192,13 @@ header {
 }
 
 .service-items {
-    margin-top: 84px;
+    margin-top: 76px;
 }
 
 .service-item {
     border: 1px solid #E3E1D5;
     border-radius: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 33px;
 }
 
 .service-item-title {
@@ -182,6 +206,7 @@ header {
     color: #E06733;
     font-size: 20px;
     text-align: center;
+    padding-top: 5px;
 }
 
 .service-item-lorem {
@@ -189,7 +214,7 @@ header {
     font-size: 16px;
     color: #717171;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .service-items-second {
@@ -212,7 +237,7 @@ header {
 .gardeners-title {
     font-family: Inter, sans-serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     color: #010201;
 }
 
@@ -226,7 +251,7 @@ header {
     align-items: center;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
-    padding: 34px 0;
+    padding: 18px 0;
 }
 
 .prices-button {
@@ -245,6 +270,7 @@ header {
     padding: 0 41px;
 }
 
+
     .round {
     display: flex;
     align-items: center;
@@ -257,6 +283,7 @@ header {
 
 .gardeners-title {
     text-align: right;
+    padding-left: 40px;
 }
 
 .prices-block{
@@ -266,8 +293,18 @@ header {
     align-items:flex-end;
 }
 
-.contact-button, .img-block {
-    margin-top: 48px;
+.contact-button{
+    margin-top: 41px;
+} 
+.img-block {
+    margin-top: 34px;
+    margin-right: -8px;
+}
+
+.contact-button:hover {
+    transition: 0.5s;
+    background-color: #E06733;
+    color: #fff;
 }
 
 .contacts{
@@ -276,7 +313,7 @@ header {
 }
 
 .contact-title {
-    padding-top: 65px;
+    padding-top: 59px;
     font-family: Inika, serif;
     font-size: 40px;
     font-weight: 700;
@@ -290,19 +327,19 @@ header {
 
 .img-contacts {
     position: relative;
-    bottom: 65px;
+    bottom: 60px;
 }
 
 .contacts-button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 36px 0 21px;
+    padding: 0 35px 0 24px;
     height: 50px;
     width: 450px;
     background-color: #D6E7D2;
     border: none;
-    margin-top: 48px;
+    margin-top: 36px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
     font-family: Inter, sans-serif;
     color: #717171;
@@ -325,7 +362,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color:#FFFFFF;
-    padding: 0 109px;
+    padding: 0 90px 0 109px;
 }
 
 .github-link {
@@ -336,10 +373,21 @@ header {
     color: #000000;
     font-family: Inter, sans-serif;
     font-size: 20px;
+    font-weight: 400;
+}
+
+.rsschool-item{
+    text-align: right;
+    margin-left: 39px ;
 }
 .social-networks{
     display: flex;
 }
+
+.social-networks .instagram{
+    margin-top: 3px;
+}
+
 .github-item, .social-networks-item{
     margin-right: 20px;
 }
