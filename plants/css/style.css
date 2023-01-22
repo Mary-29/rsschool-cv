@@ -696,3 +696,194 @@ header {
     }
 
 }
+
+@media (max-width: 380px) {
+
+    .main-container {
+        width:100%;
+    }
+
+    .main-container section, header {
+        padding: 0 25px;
+    }
+
+    .header-plants {
+        height: 96px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .welcome{
+        height: 300px;
+    }
+
+    .welcome-text {
+        display: block;
+        width: 330px;
+        padding-top: 24px;
+    }
+
+    .welcome-lorem {
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 24px;
+    }
+
+    .welcome-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .welcome-img {
+        display: none;
+    }
+
+    .welcome-button {
+        margin-top: 24px;
+        height: 34px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .about {
+        height: 516px;
+    }
+
+    .title-about {
+        padding-top: 30px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .about-lorem {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 23px;
+    }
+
+    .about-img img {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        height: 147px;
+    }
+
+    .service {
+        height: 3150px;
+    }
+    .sevice-top{
+        margin-top: 33px;
+    }
+
+    .service-title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .service-buttons {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: start;
+    }
+
+    .service-button {
+        margin: 0;
+        width: 121px;
+        height: 35px;
+    }
+
+    .service-items {
+        justify-content: center;
+        margin-top: 6px;
+    }
+
+    .service-item {
+        margin-top: 34px;
+    }
+
+    .contacts-button {
+        width: 50px;
+    }
+
+    .img-block {
+        display: none;
+    }
+    
+    .prices {
+        height: 512px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prices-title {
+    font-size: 25px;
+    }
+
+    .prices-buttons {
+        margin-top: 40px;
+        height: 235px;
+        width: 224px;
+    }
+
+    .right-part {
+        margin-top: 24px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-part {
+        margin-top: 19px;
+        width: 100%;
+    }
+
+    .contact-button {
+        margin: 28px auto;
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .gardeners-title {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        width: 230px;
+    }
+
+    .prices-button {
+        font-size: 15px;
+        width: 180px;
+        height: 50px;
+    }
+
+    .contacts {
+        height: 445px;
+    }
+
+    .contact-title {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .contacts-part {
+        height: 382px;
+    }
+
+    .img-contacts {
+        bottom: 0;
+        width: 100px;
+        height: 124px;
+    }
+    .contacts-button {
+        width: 300px;
+        height: 50px;
+        margin-top: 90px;
+    }
+}
