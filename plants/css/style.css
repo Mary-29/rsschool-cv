@@ -14,6 +14,10 @@
     height: 134px;
     margin: 0 auto;
 
+} 
+
+.burger-button {
+    visibility: hidden;
 }
 
 .main-container {
@@ -711,8 +715,40 @@ header {
         height: 96px;
     }
 
+    .burger-button {
+        visibility: visible;
+        display: block;
+    }
+
+    #close-button {
+        position: fixed;
+        top: 33px;
+        right: 25px;
+        display: none;
+        z-index: 6;
+    }
+
     .header-nav {
         display: none;
+        height: auto;
+        z-index: 5;
+        background-color: #D6E7D2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header-nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-nav ul li {
+        margin-top: 10px;
+        font-size: 25px;
+        line-height: 35px;
     }
 
     .welcome{
@@ -885,5 +921,10 @@ header {
         width: 300px;
         height: 50px;
         margin-top: 90px;
+    }
+
+    .footer {
+        height: 146px;
+        padding: 26px 0 29px 0px;
     }
 }
