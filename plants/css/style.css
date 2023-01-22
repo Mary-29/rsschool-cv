@@ -185,20 +185,59 @@ header {
     color: #499A18;
 }
 
-.service-items,
-.service-items-second {
+.service-items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 97px;
 }
 
-.service-items {
-    margin-top: 76px;
+.distance {
+    margin-top: 55px;
 }
 
 .service-item {
+    width:329px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 20px 0 0;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
     padding-bottom: 33px;
+}
+
+.service-item div:first-child {
+    border-radius: 0 20px 0 0;
+}
+
+#first-img {
+    height: 350px;
+    background-image: url(../assets/img/png/service/garden_care.png);
+}
+
+#second-img {
+    height: 350px;
+    background-image: url(../assets/img/png/service/planting.png);
+}
+
+#third-img {
+    height: 350px;
+    background-image: url(../assets/img/png/service/lawn_care.png);
+}
+
+#fourth-img {
+    height: 350px;
+    background-image: url(../assets/img/png/service/planting_second.png);
+}
+
+#fives-img {
+    height: 350px;
+    background-image: url(../assets/img/png/service/garden_care_second.png);
+}
+
+#sixth-img {
+    height: 350px;
+    background-image: url(../assets/img/png/service/planting_third.png);
 }
 
 .service-item-title {
@@ -215,10 +254,6 @@ header {
     color: #717171;
     text-align: center;
     margin-top: 12px;
-}
-
-.service-items-second {
-    margin-top: 55px;
 }
 
 .prices {
@@ -271,7 +306,7 @@ header {
 }
 
 
-    .round {
+.round {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -390,4 +425,274 @@ header {
 
 .github-item, .social-networks-item{
     margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        width:100%;
+    }
+
+    .main-container section, header {
+        padding: 0 50px;
+    }
+
+    .header-plants {
+        width: 100%;
+        margin: 0 auto;
+        height: 117px;
+    }
+
+    .logo-plants{
+        margin-top: 3px;
+    }
+
+    .logo_img {
+        position: relative;
+        bottom: 5px;
+    }
+
+    .header-nav {
+        width: 452px;
+    }
+
+    .header-list{
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    .welcome {
+        height: 420px;
+        align-items: start;
+        padding-top: 40px;
+    }
+
+    .welcome-img {
+        padding-top: 40px;
+    }
+
+    .leaf-img {
+        position: relative;
+        bottom: 5px;
+        width: 284px;
+        height: 260px;
+        order: 1;
+    }
+
+    .welcome-text {
+        padding: 0;
+        padding-top: 40px;
+        width: 346px;
+        order: -1;
+    }
+
+    .welcome-title {
+        padding-top: 0px;
+        font-size: 35px;
+    }
+
+    .welcome-lorem {
+        padding-left: 5px;
+        padding-top: 31px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .welcome-button {
+        margin-top: 34px;
+    }
+
+    .about {
+        display: block;
+        height: 783px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .title-about {
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .about-lorem {
+        padding-top: 50px;
+    }
+
+    .about-img img {
+        position: relative;
+        left: 209px;
+        top: 69px;
+        right: 10px;
+        width: 250px;
+        height: 258;
+    }
+
+    .service {
+        height: 1720px;
+    }
+
+    .sevice-top {
+        display: block;
+        margin-top: 61px;
+    }
+
+    .service-text {
+        margin: 8px auto 20px auto;
+    }
+
+    .service-title {
+        font-size: 35px;
+    }
+
+    .service-buttons {
+        width: 559px;
+        padding: 0;
+        margin-top: 43px;
+    }
+
+    #first-img {
+        width: 280px;
+        height: 350px;
+        background-image: url(../assets/img/png/service/first_tablet.png);
+    }
+    
+    #second-img {
+        width: 280px;
+        height: 350px;
+        background-image: url(../assets/img/png/service/second_tablet.png);
+    }
+    
+    #third-img {
+        width: 280px;
+        height: 350px;
+        background-image: url(../assets/img/png/service/third_tablet.png);
+    }
+    
+    #fourth-img {
+        width: 280px;
+        height: 350px;
+        background-image: url(../assets/img/png/service/fourth_tablet.png);
+    }
+    
+    #fives-img {
+        width: 280px;
+        height: 350px;
+        background-image: url(../assets/img/png/service/fiveth_tablet.png);
+    }
+    
+    #sixth-img {
+        width: 280px;
+        height: 350px;
+        background-image: url(../assets/img/png/service/sixth_tablet.png);
+    }
+    
+    .service-items {
+        margin-top: 40px;
+    }
+
+    .service-item {
+        /* height: 450px; */
+        width: 281px;
+        padding-bottom: 0;
+    }
+
+    .top, .distance {
+        margin-top: 34px;
+    }
+
+    .service-item-title {
+        padding-top: 0;
+    }
+
+    .service-item-lorem {
+        padding: 0 38px;
+        margin-top: 7px;
+    }
+
+    .prices {
+        height: 585px;
+    }
+
+    .prices-title {
+        display: flex;
+        justify-content: center;
+        width: 135px;
+        font-size: 35px;
+    }
+
+    .prices-buttons {
+        margin-top: 56px;
+    }
+
+    .gardeners-title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 100px;
+    }
+
+    .contact-button {
+        font-weight: 700;
+        margin-top: 28px;
+    }
+
+    .contacts {
+        height: 739px;
+    }
+
+    .contacts-part {
+        height: 637px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-contacts {
+        width: 200px;
+        height: 249px;
+        order: 2;
+        position: relative;
+        bottom: -10px;
+        left: 10px;
+    }
+
+    .contact-title {
+        padding-top: 40px;
+    }
+
+    .contacts-button {
+        order: 1;
+        margin-top: 100px;
+    }
+
+    .footer {
+        padding: 33px 0; 
+        height: 181px;
+        flex-direction: column;
+    }
+
+    .github-link {
+        display: flex;
+        justify-content: space-around;
+        width: 210px;
+        padding: 0 8px;
+    }
+
+    .social-networks {
+        padding-top: 10px;
+        padding-left: 20px;
+        margin-bottom: -10px;
+    }
+
+    .github-item {
+        margin: 0;
+    }
+
+    .rsschool-item {
+        text-align: center;
+        margin: 0;
+    }
+
 }
