@@ -758,13 +758,14 @@ header {
     .welcome-text {
         display: block;
         width: 330px;
-        padding-top: 24px;
+        padding-top: 25px;
     }
 
     .welcome-lorem {
+        padding-left: 0;
         font-size: 16px;
         line-height: 25px;
-        padding-top: 24px;
+        padding-top: 22px;
     }
 
     .welcome-title {
@@ -795,7 +796,7 @@ header {
     .about-lorem {
         font-size: 15px;
         line-height: 25px;
-        padding-top: 23px;
+        padding-top: 14px;
     }
 
     .about-img img {
@@ -803,25 +804,28 @@ header {
         display: block;
         margin: 0 auto;
         width: 150px;
-        height: 147px;
+        height: 154px;
     }
 
     .service {
-        height: 3150px;
+        height: auto;
+        margin-bottom: 25px;
     }
     .sevice-top{
         margin-top: 33px;
     }
 
     .service-title {
+        margin-top: -3px;
         font-size: 25px;
         line-height: 33px;
     }
 
     .service-buttons {
+        margin-top: 38px;
         width: 100%;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 9px;
         justify-content: start;
     }
 
@@ -829,6 +833,7 @@ header {
         margin: 0;
         width: 121px;
         height: 35px;
+        font-size: 15px;
     }
 
     .service-items {
@@ -836,8 +841,12 @@ header {
         margin-top: 6px;
     }
 
+    .service-item-lorem {
+        margin-top: 7px;
+    }
+
     .service-item {
-        margin-top: 34px;
+        margin-top: 33px;
     }
 
     .contacts-button {
@@ -849,7 +858,8 @@ header {
     }
     
     .prices {
-        height: 512px;
+        min-height: 510px;
+        height: 510px;
         flex-direction: column;
         align-items: center;
     }
@@ -862,6 +872,10 @@ header {
         margin-top: 40px;
         height: 235px;
         width: 224px;
+        padding-top: 29px;
+        padding-bottom: 29px;
+        justify-content: space-between;
+        min-height: 177px;
     }
 
     .right-part {
@@ -878,7 +892,7 @@ header {
     }
 
     .contact-button {
-        margin: 28px auto;
+        margin: 22px auto;
         width: 121px;
         height: 35px;
         font-size: 15px;
@@ -897,10 +911,11 @@ header {
         font-size: 15px;
         width: 180px;
         height: 50px;
+        padding-left: 31px;
     }
 
     .contacts {
-        height: 445px;
+        height: 450px;
     }
 
     .contact-title {
@@ -909,22 +924,34 @@ header {
     }
 
     .contacts-part {
-        height: 382px;
+        height: 388px;
     }
 
     .img-contacts {
         bottom: 0;
+        left: 0;
         width: 100px;
         height: 124px;
     }
     .contacts-button {
+        padding: 0 20px;
         width: 300px;
         height: 50px;
-        margin-top: 90px;
+        margin-top: 80px;
+        padding-left: 18px;
+    }
+
+
+    .round-grey {
+        position: static;
     }
 
     .footer {
         height: 146px;
-        padding: 26px 0 29px 0px;
+        padding: 22px 0 23px 0px;
+    }
+    
+    .rsschool-link {
+        margin-top: 16px;
     }
 }
