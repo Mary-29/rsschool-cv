@@ -1,3 +1,347 @@
-h1{
-    color: blueviolet;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #333333;
+}
+
+.pink-text{
+    color: #ff6fa5
+}
+
+header, .footer{
+    display: block;
+    max-width: 1440px;
+    min-height: 50px;
+    margin: 0 auto;
+    background-color: #ff6fa5 ;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav .nav-list .nav-item{
+    padding: 15px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color:#fff;
+    transition: 0.2s;
+}
+
+main .container {
+    max-width: 1440px;
+}
+
+main .main-container {
+    display: flex;
+    background-color:#333333;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    padding-left: 40px;
+    border-left: 2px solid #ff6fa5
+} 
+
+.right-part section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-part section div:not(:first-child) {
+    padding: 20px 30px 0 30px;
+}
+
+.left-part, .right-part {
+    padding-top: 330px;
+    padding-bottom: 20px;
+}
+
+.right-part {
+    width: 70%;
+    padding-right: 40px;
+    background-color: white;
+    border-right: 2px solid #ff6fa5
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+main .main-style {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 170px;
+    height: 140px;
+    background-color:#333333;
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+    border: 2px solid #ff6fa5;
+    width: 55%;
+    min-width: 680px;
+    max-width: 760px;
+}
+
+main .main-style .main-title{
+    position: relative;
+    white-space: nowrap;
+    left: -310px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.profile-photo{
+    position: relative;
+    left: -250px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 15px solid #ff6fa5;
+    z-index: 10;
+}
+
+.left-list {
+    padding-top: 20px;
+}
+
+.contacts-item, .skills-item, .language-descr, .small-title{
+    font-size: 20px;
+    color:aliceblue;
+    line-height: 1.3;
+}
+
+i {
+    margin-right: 10px;
+}
+
+main .right-part .title-style {
+    display: block;
+    width:200px;
+    height: 40px;
+    background-color: #333333;
+    border: 2px solid #ff6fa5;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+main .right-part .title-style .title-dark {
+    text-align: center;
+}
+
+.code-examle {
+    font-weight: 700;
+}
+
+.style-link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+}
+
+.style-link::before{
+    margin-right: 10px;
+}
+
+#projects div p {
+    font-weight: 600;
+}
+
+.projects-list {
+margin-top: 10px;
+}
+.projects-item a {
+    line-height: 36px;
+    text-decoration: none;
+    color:#333333;
+    font-style: italic;
+}
+
+.projects-item::before {
+    content: "#";
+    color: #ff6fa5;
+    padding-right: 5px;
+}
+.wordpress .uber {
+    width: 50%;
+}
+
+.footer {
+    min-height: 70px;
+}
+
+.footer-container {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+}
+
+.footer-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container div a i, .rsschool-logo a img {
+    transition: 0.2s;
+}
+
+.footer-container div a i:hover {
+    color:#fff;
+    transition: 0.2s;
+}
+
+.rsschool-logo a img:hover {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+    transition: 0.2s;
+}
+
+.footer .rsschool-logo .rsschool-link .rsschool-img {
+    display: block;
+    width: 100px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.footer .year {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+}
+.github-link{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.github-link i{
+    font-size: 50px;
+    color: black;
+}
+
+.icon-link { 
+    font-style: inherit;
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+}
+.icon-link i {
+    font-size: 32px;
+    color: black;
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .nav-list {
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    main .main-style {
+        flex-direction: column;
+        justify-content: center;
+        min-width: 100%;
+        top: 280px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    .main-style img {
+        display: flex;
+        left: 0;
+        top: -85px;
+        width: 200px;
+        height: 200px;
+        border: 5px solid #ff6fa5;
+    }
+
+    main .main-style .main-title {
+        left: 0px;
+        top: -80px;
+        padding-left: 0px;
+        font-size: 2em;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .right-part {
+        padding-right: 0px;
+    }
+
+    .left-part, .right-part {
+        width: 100%;
+        padding-top: 0;
+        border: 0;
+    }
+
+    .left-part:first-child {
+        padding-top: 360px;
+    }
+
+    .icon-link {
+        margin-right: 5px;
+    }
+
+    .footer-container {
+        padding: 0 10px;
+    }
 }
